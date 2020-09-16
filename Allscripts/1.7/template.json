@@ -1,0 +1,40 @@
+{
+  "DisplayName": "import1",
+  "Parameters": {
+    "param1": "defaultvalue1",
+    "param2": "defaultvalue2",
+    "param3": "defaultvalue3"
+  },
+  "DataSource": {
+    "DisplayName": "DataSource1",
+    "ObjectFactoryName": "ObjectFactoryName1",
+    "Parameters": {
+      "param1": "defaultvalue1",
+      "param2": "defaultvalue2",
+      "NewParamforV1.7": "newdefaultvalue" 
+    },
+    "Instance": {}
+  },
+  "DataAddins": [
+    {
+      "DisplayName": "Addin1",
+      "ObjectFactoryName": "ObjectFactoryName1",
+      "Parameters": {
+        "param1": "defaultvalue1",
+        "param3": "defaultvalue3",
+        "param4": "defaultvalue4"
+      },
+      "Instance": {}
+    },
+    {
+      "DisplayName": "Addin2",
+      "ObjectFactoryName": "ObjectFactoryName2",
+      "Parameters": {
+        "param1": "defaultvalue1",
+        "param2": "defaultvalue2",
+        "param3": "defaultvalue3"
+      },
+      "Instance": {}
+    }
+  ]
+}
